@@ -11,7 +11,7 @@ class SignUpPage extends StatefulWidget {
   _SignUpPageState createState() => _SignUpPageState();
 }
 
-enum Gender { male, female }
+// enum Gender { male, female }
 
 File? _profileImage;
 

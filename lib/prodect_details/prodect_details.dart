@@ -41,6 +41,9 @@ class _ProductDetailsState extends State<ProductDetails> {
     final prefs = await SharedPreferences.getInstance();
     final String? loginUser = prefs.getString('logged_in_user');
     if (loginUser == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Please log in to add items to the cart.')),
+      );
       return;
     }
 

@@ -182,7 +182,6 @@ class _LoginState extends State<Login> {
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     _loginData();
-                    // printAllSharedPrefs();
                   }
                 },
                 child: const Text(

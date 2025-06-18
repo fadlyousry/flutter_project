@@ -207,7 +207,7 @@ class ProductSearchDelegate extends SearchDelegate {
                   Expanded(
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(12),
-                      child: Image.asset(
+                      child: Image.asset(  
                         categoryImage,
                         fit: BoxFit.cover,
                         width: double.infinity,

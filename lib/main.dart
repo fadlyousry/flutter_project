@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
       title: 'E-Commerce App',
       initialRoute: '/',
       routes: {
-        '/': (context) => const SplashScreen(),
-        '/login': (context) => const Login(),      
-        '/register': (context) => const SignUpPage(), 
-        '/home': (context) => const HomePageWithPages(),  
+        '/': (context) =>  SplashScreen(),
+        '/login': (context) =>  Login(),      
+        '/register': (context) =>  SignUpPage(), 
+        '/home': (context) =>  HomePageWithPages(),  
         '/orders': (context) => OrdersPage(),
         '/profile': (context) => ProfilePage(),
     
